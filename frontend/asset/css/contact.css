@@ -1,0 +1,64 @@
+fieldset{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.grupo{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+.grupo label{
+    width:80px;
+    margin-right:10px;
+}
+.grupo-radio{
+   
+    margin: 5px;
+    padding: 5px;
+}
+.grupo-textarea{
+    display: flex;
+    flex-direction: column;
+}
+.btn-form{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.2rem;
+    
+    cursor: pointer;
+    border : none;
+}
+.btn-success{
+    width: 150px;
+    background-color: #4CAF50;
+    color: white;
+    box-shadow: 5px 5px 5px #000000;
+    
+}
+.btn-success:hover{
+    background-color: #0cfa08;
+    color:rgb(0, 0, 0);
+    /* text-shadow: 5px 5px 5px rgb(10, 10, 10); */
+    box-shadow: -2px -2px 5px #000000;
+   
+}
+.btn-reset{
+    width: 150px;
+    background-color: #f44336;
+    color: white;
+   box-shadow: 5px 5px 5px #000000;
+}
+.btn-reset:hover{
+    background-color: #fa0c08;
+    color:rgb(0, 0, 0);
+    /* text-shadow: 5px 5px 5px rgb(10, 10, 10); */
+    box-shadow: -2px -2px 5px #000000;
+}
